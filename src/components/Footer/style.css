@@ -1,0 +1,20 @@
+.attribution {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Red Had Display';
+  line-height: 22px;
+  color: hsl(224, 23%, 55%);
+}
+
+#perfil:hover {
+  font-size: 105%;
+  cursor: pointer;
+}
+
+#Challenge:hover {
+  font-size: 105%;
+  cursor: pointer;
+}

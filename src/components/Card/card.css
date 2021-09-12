@@ -1,0 +1,67 @@
+.card {
+  width: 320px;
+  height: 560px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-family: 'Red Had Display';
+  font-size: 16px;
+  box-shadow: 0px 12px 30px rgba(34, 34, 85, 0.25);
+}
+.card .img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .paragrafo {
+  font-family: 'Red Hat Display';
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  padding: 0 26px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.card .paymentSystem {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .paymentSystem .payment {
+  margin: 0 0 30px 0;
+  background-color: rgb(56, 41, 224);
+  color: #fff;
+  width: 90%;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0px 12px 30px rgba(34, 34, 85, 0.25);
+}
+.card .paymentSystem .payment:hover {
+  background-color: hsl(223, 47%, 23%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.card .paymentSystem .cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+}
+
+.card .paymentSystem .cancel:hover {
+  font-size: 105%;
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 629px) {
+  .card {
+    width: 400px;
+    height: 600px;
+  }
+}

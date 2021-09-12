@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  background-image: url(./assets/images/pattern-background-mobile.svg);
+  background-size: cover;
+  background-color: #d6e1ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 629px) {
+  .App {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+  }
+}

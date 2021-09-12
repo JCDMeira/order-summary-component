@@ -1,0 +1,42 @@
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.plan .music {
+  flex: 0.3;
+}
+.plan .info {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  line-height: 24px;
+}
+.plan .info .emphasis {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.plan .info .not-emphasis {
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+.plan .linkTag {
+  flex: 0.1;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+}
+a:hover {
+  color: hsl(223, 47%, 23%);
+}
