@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [jcdmeira-order-summary](https://www.frontendmentor.io/solutions/jcdmeiraordersummary-Wd-71ZC58https://your-solution-url.com)
+- Live Site URL: [jcdmeira-order-summary](https://jcdmeira-order-summary.netlify.app/)
 
 ## My process
 
